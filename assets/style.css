@@ -8,8 +8,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-family: 500;
     background-color: #F3F1FF;
-    ;
     box-sizing: border-box;
 }
 
@@ -24,9 +24,27 @@ h2 {
 h3 {
     font-size: 20px;
 }
-
+h4{
+    font-size: 18px;
+    font-weight: 500;
+}
 p {
     font-size: 16px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    width: 807px;
+    margin: 0 auto;
+}
+.title{
+    color: #562EFF;
+    margin-bottom: 30px;
+}
+.container{ 
+    width: 870px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 5px;
 }
 
 
@@ -75,4 +93,27 @@ p {
 #profile {
     width: 50px;
     font-weight: 400;
+}
+
+/* top-player section */
+.player-section{
+    margin: 35px 0;
+}
+.top-player{
+    padding: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+
+}
+
+.player img{
+    width:55px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
