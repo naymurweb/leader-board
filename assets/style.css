@@ -113,7 +113,8 @@ hr {
     margin: 35px 0;
 }
 
-.player-section {
+.player-section,
+.course-details {
     padding: 30px;
 }
 
@@ -160,4 +161,51 @@ hr {
 .details span {
     color: #562EFF;
 
+}
+
+/* .course-section */
+.all-course {
+    display: flex;
+    gap: 20px;
+}
+
+.course {
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 252px;
+    border-radius: 5px;
+}
+
+.course img {
+    width: 224px;
+}
+
+.course-icon {
+    display: flex;
+    gap: 10PX;
+    justify-content: space-between;
+
+}
+
+.fa-star {
+    font-size: 12px;
+    color: #FFC014;
+}
+
+#fa {
+    color: #AEAEAE;
+}
+
+.num {
+    color: #AEAEAE;
+    font-size: 14px;
+}
+
+.time {
+    background-color: #FFE4E8;
+    border-radius: 14px;
+    width: 94px;
+    color: #FF4A60;
+    padding: 4px;
+    text-align: center;
 }
