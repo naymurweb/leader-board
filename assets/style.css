@@ -164,6 +164,9 @@ hr {
 }
 
 /* .course-section */
+.course-section{
+    margin-bottom: 35px;
+}
 .all-course {
     display: flex;
     gap: 20px;
@@ -207,5 +210,12 @@ hr {
     width: 94px;
     color: #FF4A60;
     padding: 4px;
+    text-align: center;
+}
+/* footer style */
+.footer{
+    background-color: #222;
+    padding: 30px;
+    color: white;
     text-align: center;
 }
